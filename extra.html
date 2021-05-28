@@ -1,0 +1,89 @@
+<body>
+    <style>
+        
+    .container 
+    {
+        position: relative;
+        width: 90%;
+        margin-right: 300px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: whitesmoke;
+        padding: 1px 1px 1px 20px;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+
+    input[type=text] 
+    {
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .btn 
+    {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 10px -10px;
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+
+    </style>
+    <div class="container">
+        <h3>Billing Address</h3>
+        <br>
+        <label for="fullname"> Full Name <br></label>
+        <input type="text" id="name"  placeholder="name" required>
+        <br>
+        <label for="email"> Email  <br></label>
+        <input type="text" id="email"  placeholder="elora@example.com" required>
+        <br>
+        <label for="adress"> Address  <br></label>
+        <input type="text" id="adress"  placeholder="address" required>
+        <br>
+        <label for="city"> City  <br></label>
+        <input type="text" id="city"  placeholder="city" required>
+        <br>
+        <label for="state">State  <br></label>
+        <input type="text" id="state"   placeholder="state" required>
+        <br>
+        <label for="pincode">Pincode  <br></label>
+        <input type="text" id="pincode"  placeholder="pincode" required>
+        
+        <h3>Payment</h3>
+        <br>
+        <label for="name">All Accepted Cards </label>
+        <br>
+        <br>
+        <br>
+        <label for="name"> Name on Card  <br></label>
+        <input type="text" id="cname"  placeholder="name" required>
+        <br>
+        <label for="ccnum">Credit card number  <br></label>
+        <input type="text" id="ccnum"  placeholder="+91-1234567890" required>
+        <br>
+        <label for="expmonth">Exp Month  <br></label>
+        <input type="text" id="expmonth"  placeholder="Month" required>
+        <br>
+        <label for="expyear">Exp Year  <br></label>
+        <input type="text" id="expyear"  placeholder="year" required>
+        <br>
+        <label for="cvv">CVV  <br></label>
+        <input type="text" id="cvv" " placeholder="***" required>
+        <br>
+        <input type="checkbox"> Shipping address should be same as billing
+        <br>
+          <input type="submit"  class="btn"  value="Register">
+</div>  
+
+</body>
